@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Igrača sa Municijom</title>
+    <link rel="stylesheet" href="subovi/stil.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="menu">
+        <h2>Menu</h2>
+        <ul>
+           <li><button id="resume">Resume</button></li>
+           <li><button id="restart">Restart</button></li>
+           <li><button id="map">Map</button></li>
+           <li><button id="exit">Exit</button></li>
+        </ul>
+    </div>
+
+    <!-- Game Over ekran -->
+    <div id="gameOverScreen" style="display: none;">
+        <div class="gameOverText">Game Over</div>
+        <button id="restartButton">Go To main menu</button>
+    </div>
+
+    <script src="subovi/pokusaj.js"></script>
+    <script src="subovi/levels.js"></script>
+</body>
+</html>
